@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    overflow-x:hidden;
+  
+}
+#__next{
+    overflow-x:hidden;
+}
+.body2 {
+    /* max-width: 1024px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+.image2 {
+    flex: 0 0 100%;
+  }
+  
+  .text2 {
+    border-left: 2px solid grey;
+    padding: 40px;
+    font-family: sans-serif;
+  }
+  
+  @media (min-width: 415px) {
+    .body2 {
+      flex-direction: row;
+    }
+  
+    .image2 {
+      flex: 0 0 50%;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .image2 {
+      flex: 0 0 33.5%;
+    }
+  }
+  
