@@ -63,7 +63,7 @@ const Slug = ({ addtocart, cart, product, variants }) => {
           }`}
         >
           <div className="lg:w-4/5 lg:h-96 mx-auto flex flex-wrap">
-            <Contact imageBaseUrl={product.img} />
+            <Contact imageBaseUrl2={product.img} />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 BRAND NAME

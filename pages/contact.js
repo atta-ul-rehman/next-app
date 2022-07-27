@@ -1,8 +1,8 @@
 import ReactImageMagnify from "react-image-magnify";
 
-const Contact = ({ imageBaseUrl }) => {
-  // const imageBaseUrl =
-  //   "https://static-01.daraz.pk/p/9629525ef6a64598f5f1539c6bae57f9.jpg";
+const Contact = ({ imageBaseUrl2 }) => {
+  const imageBaseUrl =
+    "https://static-01.daraz.pk/p/9629525ef6a64598f5f1539c6bae57f9.jpg";
 
   const sizes = [
     "355",
