@@ -17,7 +17,7 @@ const Contact = ({ imageBaseUrl }) => {
     "1192",
     "1200",
   ];
-  let index = imageBaseUrl.toString().lastIndexOf("/");
+  let index = imageBaseUrl.lastIndexOf("/");
   const img1 = imageBaseUrl.slice(0, index);
   const img2 = imageBaseUrl.slice(index + 1);
   const srcSet = () => {
