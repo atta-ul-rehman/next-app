@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import React, { useState, useEffect } from "react";
 import { SessionProvider } from "next-auth/react";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import { store } from "../store/store";
 import { Provider } from "react-redux";
 import LoadingBar from "react-top-loading-bar";
