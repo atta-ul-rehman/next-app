@@ -84,7 +84,7 @@ const Signup = () => {
               <div className="relative w-full mb-1 ">
                 <label
                   className="block uppercase text-indigo-600 text-xs font-bold mb-2"
-                  for="grid-password"
+                  htmlFor="grid-password"
                 >
                   Name
                 </label>
@@ -99,7 +99,7 @@ const Signup = () => {
               <div className="relative w-full mb-3">
                 <label
                   className="block uppercase text-indigo-600 text-xs font-bold mb-2"
-                  for="grid-password"
+                  htmlFor="grid-password"
                 >
                   Email
                 </label>
@@ -114,7 +114,7 @@ const Signup = () => {
               <div className="relative w-full mb-3">
                 <label
                   className="block uppercase text-indigo-600 text-xs font-bold mb-2"
-                  for="grid-password"
+                  htmlFor="grid-password"
                 >
                   Password
                 </label>

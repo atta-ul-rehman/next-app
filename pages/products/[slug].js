@@ -176,6 +176,7 @@ const Slug = ({ addtocart, cart, product, variants }) => {
                   <span className="mr-3">Color</span>
                   {variantColor?.map((item, i) => (
                     <button
+                      key={i}
                       onClick={(e) => {
                         //console.log(variantColor);
                         setStyle({ brColor: "#d1d5db", color: item });
@@ -204,8 +205,12 @@ const Slug = ({ addtocart, cart, product, variants }) => {
                       className="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10"
                     >
                       {sizes &&
-                        sizes.map((item) => {
-                          return <option value={item}>{item}</option>;
+                        sizes.map((item, i) => {
+                          return (
+                            <option key={i} value={item}>
+                              {item}
+                            </option>
+                          );
                         })}
                     </select>
                     <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">

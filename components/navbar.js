@@ -144,7 +144,7 @@ const Navbar = ({ cart, addtocart, removeFromCart, clearCart, subTotal }) => {
                   Your cart is Empty!
                 </div>
                 <div className="flex md:text-md text-lg justify-center items-center text-gray-400">
-                  Looks Like you haven't made
+                  Looks Like you havent made
                 </div>
                 <div className="flex md:text-md text-lg justify-center items-center text-gray-400">
                   Any Choice Yet!

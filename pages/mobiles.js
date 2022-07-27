@@ -48,9 +48,10 @@ const Mobiles = ({ products }) => {
                         </h2>
                         <p className="mt-1">Rs {products[item].price}</p>
                         <p className="flex mt-1 space-x-1 ">
-                          {products[item].size.map((e) => {
+                          {products[item].size.map((e, i) => {
                             return (
                               <div
+                                key={i}
                                 className={`p-1 ${
                                   e.length == 1 ? "ml-2" : "ml-1"
                                 }`}
@@ -61,9 +62,10 @@ const Mobiles = ({ products }) => {
                           })}
                         </p>
                         <div className="flex space-x-1">
-                          {products[item].color.map((e) => {
+                          {products[item].color.map((e, i) => {
                             return (
                               <button
+                                key={i}
                                 style={{
                                   borderWidth: 1,
                                   borderColor: "#d1d5db",

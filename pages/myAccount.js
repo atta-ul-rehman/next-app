@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 const myAccount = () => {
-  useEffect(() => {});
   return <div>myAccount</div>;
 };
 

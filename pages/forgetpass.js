@@ -19,7 +19,7 @@ const forgetpass = () => {
               <div className="relative w-full mb-1 ">
                 <label
                   className="block uppercase text-indigo-600 text-xs font-bold mb-2"
-                  for="grid-password"
+                  htmlFor="grid-password"
                 >
                   Enter Email
                 </label>
